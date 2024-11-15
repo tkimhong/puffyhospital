@@ -13,7 +13,10 @@
 
     <!-- Redirect script -->
     <script type="text/javascript">
-        window.location.href = "https://www.youtube.com/watch?v=twQ3kkeZ6Fk";
+        // Redirect after a slight delay to ensure analytics data is captured
+        setTimeout(() => {
+            window.location.href = "https://www.youtube.com/watch?v=twQ3kkeZ6Fk";
+        }, 100); // 100ms delay
     </script>
 </head>
 <body>
